@@ -1,0 +1,49 @@
+<!--
+* File: index.html
+* Author: Viola Máté
+* Copyright: 2024, Viola Máté
+* Group: I/2/N
+* Date: 2024-05-30
+* Github: https://github.com/matukav
+* Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téglalap Átljója</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Téglalap Átlójának Kiszámítása</h1>
+      <div class="form">
+        <div class="input mt-4">
+          <label for="aSide" class="form-label">A Oldal</label>
+          <input type="text" class="form-control" id="aSide">
+        </div>
+        <div class="input mt-3">
+          <label for="aSide" class="form-label">B Oldal</label>
+          <input type="text" class="form-control" id="bSide">
+        </div>
+        <div class="mt-3 mb-4">
+          <button class="btn btn-danger" id="calcButton">Számítás</button>
+        </div>
+        <div class="input">
+          <label for="aSide" class="form-label">Téglalap Átlója</label>
+          <input type="text" class="form-control" id="diagonal">
+        </div>
+      </div>
+      <div class="footer">Viola Máté ®, 2024</div>
+    </div>
+    <script src="bootstrap.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
